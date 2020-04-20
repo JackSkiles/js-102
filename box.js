@@ -1,5 +1,5 @@
 
-
+// Shoul take the arguments and print a box of accurate hight and width made of *'s
 function printBox(height, width) {
     let topBox = '';
     let totalBox = '';
