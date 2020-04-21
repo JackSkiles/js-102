@@ -3,7 +3,7 @@
 function leetSpeak(str) {
     let newString = str.toUpperCase()
     stringContainer = '';
-    for (i = 0; i <= str.length; i++) {
+    for (let i = 0; i <= str.length; i++) {
         if (newString.charAt(i) === 'A') {
             stringContainer += '4';
         }
